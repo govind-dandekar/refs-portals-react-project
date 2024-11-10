@@ -12,7 +12,7 @@ export default function Player() {
    // directly instructing browser to set value to null
    // React is not handling the interaction
    // but is ok because value not connected to state
-   playerName.current.value = null;
+   nameInput.current.value = null;
   }
   
   return (
